@@ -17,9 +17,9 @@ public class CardController {
     @RequestMapping("/cards")
     public List<CardEntity> getCars(Authentication auth, Principal principal) {
         return Arrays.asList(
-          new CardEntity("Audi", "white", 22000000L),
-          new CardEntity("BMW", "black", 24500000L),
-          new CardEntity("Mercedes", "silver", 45000000L));
+          new CardEntity("Master Roshi", "orange", 22000000L),
+          new CardEntity("Korin", "white", 24500000L),
+          new CardEntity("Android 18", "yellow", 45000000L));
     }
 
 }
