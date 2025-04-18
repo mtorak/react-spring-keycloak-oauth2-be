@@ -4,12 +4,12 @@ public class CardEntity {
 
     private String name;
     private String color;
-    private Long price;
+    private Long experience;
 
-    public CardEntity(String name, String color, Long price) {
+    public CardEntity(String name, String color, Long experience) {
         this.name = name;
         this.color = color;
-        this.price = price;
+        this.experience = experience;
     }
 
     public String getName() {
@@ -28,11 +28,11 @@ public class CardEntity {
         this.color = color;
     }
 
-    public Long getPrice() {
-        return price;
+    public Long getExperience() {
+        return experience;
     }
 
-    public void setPrice(Long price) {
-        this.price = price;
+    public void setExperience(Long experience) {
+        this.experience = experience;
     }
 }
