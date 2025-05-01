@@ -5,3 +5,6 @@ Tech stack:
 - JDK 21
 - Spring security
 - Spring Boot resource server
+- Docker compose
+- Keycloak 26.1.0
+- Postgres 11.4(keycloak db)
