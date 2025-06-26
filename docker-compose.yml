@@ -34,7 +34,6 @@ services:
       - "14082:8080"
     depends_on:
       - keycloak-db
-    restart: unless-stopped
 
 volumes:
   keycloak-db:
